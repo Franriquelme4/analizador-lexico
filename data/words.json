@@ -1,0 +1,529 @@
+{
+  "hola": {
+    "word": "hola",
+    "type": "SALUDO",
+    "qualification": "BUENA"
+  },
+  "chau": {
+    "word": "chau",
+    "type": "DESPEDIDA",
+    "qualification": "BUENA"
+  },
+  "buen_dia": {
+    "word": "buen_dia",
+    "type": "SALUDO",
+    "qualification": "BUENA"
+  },
+  "buenas_tardes": {
+    "word": "buenas_tardes",
+    "type": "SALUDO",
+    "qualification": "BUENA"
+  },
+  "hasta_luego": {
+    "word": "hasta_luego",
+    "type": "DESPEDIDA",
+    "qualification": "BUENA"
+  },
+  "problema": {
+    "word": "problema",
+    "type": "NEGATIVO",
+    "qualification": "MALA"
+  },
+  "error": {
+    "word": "error",
+    "type": "NEGATIVO",
+    "qualification": "MALA"
+  },
+  "fallo": {
+    "word": "fallo",
+    "type": "NEGATIVO",
+    "qualification": "MALA"
+  },
+  "falla": {
+    "word": "falla",
+    "type": "NEGATIVO",
+    "qualification": "MALA"
+  },
+  "incorrecto": {
+    "word": "incorrecto",
+    "type": "NEGATIVO",
+    "qualification": "MALA"
+  },
+  "documento": {
+    "word": "documento",
+    "type": "ID",
+    "qualification": "BUENA"
+  },
+  "perfecto": {
+    "word": "perfecto",
+    "type": "POSITIVO",
+    "qualification": "BUENA"
+  },
+  "bien": {
+    "word": "bien",
+    "type": "POSITIVO",
+    "qualification": "BUENA"
+  },
+  "correcto": {
+    "word": "correcto",
+    "type": "POSITIVO",
+    "qualification": "BUENA"
+  },
+  "gracias": {
+    "word": "gracias",
+    "type": "POSITIVO",
+    "qualification": "BUENA"
+  },
+  "por": {
+    "word": "por",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "llamar": {
+    "word": "llamar",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "al": {
+    "word": "al",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "servicio": {
+    "word": "servicio",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "de": {
+    "word": "de",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "atencion": {
+    "word": "atencion",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "cliente": {
+    "word": "cliente",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "abc": {
+    "word": "abc",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "en": {
+    "word": "en",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "que": {
+    "word": "que",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "puedo": {
+    "word": "puedo",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "ayudarle": {
+    "word": "ayudarle",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "hoy": {
+    "word": "hoy",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "si": {
+    "word": "si",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "supuesto": {
+    "word": "supuesto",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "cual": {
+    "word": "cual",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "es": {
+    "word": "es",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "su": {
+    "word": "su",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "nombre": {
+    "word": "nombre",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "entiendo": {
+    "word": "entiendo",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "francisco": {
+    "word": "francisco",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "asistirle": {
+    "word": "asistirle",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "podria": {
+    "word": "podria",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "proporcionarme": {
+    "word": "proporcionarme",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "numero": {
+    "word": "numero",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "o": {
+    "word": "o",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "direccion": {
+    "word": "direccion",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "correo": {
+    "word": "correo",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "electronico": {
+    "word": "electronico",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "para": {
+    "word": "para",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "verificar": {
+    "word": "verificar",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "cuenta": {
+    "word": "cuenta",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "dejeme": {
+    "word": "dejeme",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "buscar": {
+    "word": "buscar",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "informacion": {
+    "word": "informacion",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "nuestro": {
+    "word": "nuestro",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "sistema": {
+    "word": "sistema",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "he": {
+    "word": "he",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "encontrado": {
+    "word": "encontrado",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "lamento": {
+    "word": "lamento",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "escuchar": {
+    "word": "escuchar",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "eso": {
+    "word": "eso",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "explicarme": {
+    "word": "explicarme",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "el": {
+    "word": "el",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "permitame": {
+    "word": "permitame",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "revisar": {
+    "word": "revisar",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "historial": {
+    "word": "historial",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "facturacion": {
+    "word": "facturacion",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "esperar": {
+    "word": "esperar",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "parece": {
+    "word": "parece",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "hubo": {
+    "word": "hubo",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "un": {
+    "word": "un",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "la": {
+    "word": "la",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "factura": {
+    "word": "factura",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "del": {
+    "word": "del",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "mes": {
+    "word": "mes",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "pasado": {
+    "word": "pasado",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "cargo": {
+    "word": "cargo",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "adicional": {
+    "word": "adicional",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "fue": {
+    "word": "fue",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "no": {
+    "word": "no",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "solicito": {
+    "word": "solicito",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "lo": {
+    "word": "lo",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "siento": {
+    "word": "siento",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "mucho": {
+    "word": "mucho",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "inconveniencia": {
+    "word": "inconveniencia",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "vamos": {
+    "word": "vamos",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "a": {
+    "word": "a",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "proceder": {
+    "word": "proceder",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "reembolsarle": {
+    "word": "reembolsarle",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "importe": {
+    "word": "importe",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "cobrado": {
+    "word": "cobrado",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "incorrectamente": {
+    "word": "incorrectamente",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "hay": {
+    "word": "hay",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "algo": {
+    "word": "algo",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "mas": {
+    "word": "mas",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "pueda": {
+    "word": "pueda",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "estoy": {
+    "word": "estoy",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "aqui": {
+    "word": "aqui",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "necesite": {
+    "word": "necesite",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "tiene": {
+    "word": "tiene",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "alguna": {
+    "word": "alguna",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "otra": {
+    "word": "otra",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "pregunta": {
+    "word": "pregunta",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "futuro": {
+    "word": "futuro",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "dude": {
+    "word": "dude",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "llamarnos": {
+    "word": "llamarnos",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "tenga": {
+    "word": "tenga",
+    "type": "NEUTRO",
+    "qualification": "NEUTRO"
+  },
+  "necesito": "NEUTRO",
+  "ayuda": "NEUTRO",
+  "con": "NEUTRO",
+  "mi": "NEUTRO",
+  "riquelme": "NEUTRO",
+  "tengo": "NEUTRO",
+  "me": "NEUTRO",
+  "cobraron": "NEUTRO",
+  "solicitado": "NEUTRO",
+  "ayudarme": "NEUTRO",
+  "todo": "NEUTRO",
+  "hare": "NEUTRO"
+}
