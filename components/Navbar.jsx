@@ -14,8 +14,6 @@ const Navbar = () => {
                
                   <Link href="/analizador" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Control de Analizador</Link>
              
-      
-                  <Link href="/" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</Link>
         
               </div>
             </div>

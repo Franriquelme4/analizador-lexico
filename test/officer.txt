@@ -1,3 +1,7 @@
-Buen dia, gracias por llamar al servicio de atención al cliente de ABC. ¿En qué puedo ayudarle hoy?
-
-Perfecto. Si tiene alguna otra pregunta en el futuro, no dude en llamarnos. hasta luego.
+Buenos días, le saluda Joanna de atención al cliente, ¿en qué puedo ayudarle?
+Puedo darle esa información.Por favor, ¿me facilita su número de documento?
+Gracias, una pregunta de seguridad, ¿puede darme el año de su fecha de
+nacimiento?
+Gracias. Verifico que su saldo es de doscientos trienta mil guaraníes a la fecha de
+ayer. ¿Algo más que pueda hacer por usted?
+Gracias por llamar al servicio de atención al cliente. hasta luego

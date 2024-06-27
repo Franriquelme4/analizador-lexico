@@ -1,117 +1,70 @@
+
 "use client"
-import { useState,useEffect } from "react"
-import {
-  Table,
-  TableBody,
-  TableCaption,
-  TableCell,
-  TableFooter,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/components/ui/table"
 
-const invoices = [
-  {
-    invoice: "INV001",
-    paymentStatus: "Paid",
-    totalAmount: "$250.00",
-    paymentMethod: "Credit Card",
-  },
-  {
-    invoice: "INV002",
-    paymentStatus: "Pending",
-    totalAmount: "$150.00",
-    paymentMethod: "PayPal",
-  },
-  {
-    invoice: "INV003",
-    paymentStatus: "Unpaid",
-    totalAmount: "$350.00",
-    paymentMethod: "Bank Transfer",
-  },
-  {
-    invoice: "INV004",
-    paymentStatus: "Paid",
-    totalAmount: "$450.00",
-    paymentMethod: "Credit Card",
-  },
-  {
-    invoice: "INV005",
-    paymentStatus: "Paid",
-    totalAmount: "$550.00",
-    paymentMethod: "PayPal",
-  },
-  {
-    invoice: "INV006",
-    paymentStatus: "Pending",
-    totalAmount: "$200.00",
-    paymentMethod: "Bank Transfer",
-  },
-  {
-    invoice: "INV007",
-    paymentStatus: "Unpaid",
-    totalAmount: "$300.00",
-    paymentMethod: "Credit Card",
-  },
-]
+import TableWords from "@/components/TableWords";
+import Link from "next/link"
+import { useEffect, useState } from "react";
 
- const AnalizadorPage = () => {
-    const [words,setWords]=useState([]);
 
-    // useEffect(() => {
-    //     const fetchLexema = async () => {
-    //         try {
-    //           // Obtener los datos del cliente
-    //           let response = await fetch('/api/lexema', {
-    //             method: 'GET',
-    //             headers: {
-    //               'Content-Type': 'application/json',
-    //             }
-    //           });
-          
-    //           const value = await response.json();
-    //           console.log()
+const AnalizadorPage = () => {
+
+  const [words, setWords] = useState([]);
+
+  useEffect(() => {
+    const fetchLexema = async () => {
+      try {
+        // Obtener los datos del cliente
+        let response = await fetch('/api/lexema', {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+          }
+        });
+
+        const value = await response.json();
+        // Actualizar el estado con los datos del cliente
+        setWords(value.data.response);
+      } catch (error) {
+        console.error("Error al obtener los datos del cliente:", error);
+      }
+    };
+    fetchLexema();
+  }, [])
+
+
+  return (
+    <div className="mt-8 ">
+      <div className="flex justify-between my-2">
+        <h1 className="text-3xl font-bold ">Lexemas</h1>
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"><Link href="/palabra/nuevo">Agregar nueva palabra</Link></button>
+      </div>
+      <hr></hr>
+
+      <div className="mt-2">
+        <h1 className="text-2xl font-bold mb-4">Neutrales</h1>
+        <TableWords data={words.neutral} />
+      </div>
       
-    //           // Actualizar el estado con los datos del cliente
-    //           setWords(value.data.bueno);
-    //         } catch (error) {
-    //           console.error("Error al obtener los datos del cliente:", error);
-    //         }
-    //       };
-    //       fetchLexema();
-    // }, [])
-    
+      <div className="mt-2">
+        <h1 className="text-2xl font-bold mb-4">Compuestas</h1>
+        <TableWords data={words.compound} />
+      </div>
 
-    return (
-      <Table>
-        <TableCaption>A list of your recent invoices.</TableCaption>
-        <TableHeader>
-          <TableRow>
-            <TableHead className="w-[100px]">Invoice</TableHead>
-            <TableHead>Status</TableHead>
-            <TableHead>Method</TableHead>
-            <TableHead className="text-right">Amount</TableHead>
-          </TableRow>
-        </TableHeader>
-        <TableBody>
-          {invoices.map((invoice) => (
-            <TableRow key={invoice.invoice}>
-              <TableCell className="font-medium">{invoice.invoice}</TableCell>
-              <TableCell>{invoice.paymentStatus}</TableCell>
-              <TableCell>{invoice.paymentMethod}</TableCell>
-              <TableCell className="text-right">{invoice.totalAmount}</TableCell>
-            </TableRow>
-          ))}
-        </TableBody>
-        <TableFooter>
-          <TableRow>
-            <TableCell colSpan={3}>Total</TableCell>
-            <TableCell className="text-right">$2,500.00</TableCell>
-          </TableRow>
-        </TableFooter>
-      </Table>
-    )
+      <div className="mt-2">
+        <h1 className="text-2xl font-bold mb-4">Positivas</h1>
+        <TableWords data={words.positive} />
+      </div>
+
+
+      <div className="mt-2">
+        <h1 className="text-2xl font-bold mb-4">Negativas</h1>
+        <TableWords data={words.negative} />
+      </div>
+
+    </div>
+
+
+  )
 }
 
 export default AnalizadorPage
